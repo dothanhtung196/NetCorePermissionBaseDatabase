@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NetCorePermissionBaseDatabase.Configurations;
 using NetCorePermissionBaseDatabase.Entities;
+using NetCorePermissionBaseDatabase.Extensions;
 
 namespace NetCorePermissionBaseDatabase.DatabaseContexts
 {
@@ -20,6 +21,9 @@ namespace NetCorePermissionBaseDatabase.DatabaseContexts
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new RoleConfiguration());
             modelBuilder.ApplyConfiguration(new PermissionConfiguration());
+
+            // Seed data
+            modelBuilder.Seed();
         }
     }
 }

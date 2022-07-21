@@ -8,5 +8,7 @@
         public int CreatedUser { get; set; }
         public DateTime UpdatedTime { get; set; }
         public int UpdatedUser { get; set; }
+        public User User{ get; set; }
+        public ICollection<Permission> Permissions { get; set; }
     }
 }

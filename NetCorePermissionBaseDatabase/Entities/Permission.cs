@@ -8,5 +8,6 @@
         public int CreatedUser { get; set; }
         public DateTime UpdatedTime { get; set; }
         public int UpdatedUser { get; set; }
+        public Role Role { get; set; }
     }
 }

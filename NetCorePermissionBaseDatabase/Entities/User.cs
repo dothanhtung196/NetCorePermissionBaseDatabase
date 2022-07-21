@@ -12,5 +12,6 @@
         public int CreatedUser { get; set; }
         public DateTime UpdatedTime { get; set; }
         public int UpdatedUser { get; set; }
+        public ICollection<Role> Roles{ get; set; }
     }
 }
