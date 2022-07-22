@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCorePermissionBaseApi", "NetCorePermissionBaseApi\NetCorePermissionBaseApi.csproj", "{C359B1E7-B455-4F4A-BA8A-76991CC66CEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCorePermissionBaseApi", "NetCorePermissionBaseApi\NetCorePermissionBaseApi.csproj", "{C359B1E7-B455-4F4A-BA8A-76991CC66CEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCorePermissionBaseDatabase", "NetCorePermissionBaseDatabase\NetCorePermissionBaseDatabase.csproj", "{AD2A9666-B150-498A-9C2D-20A60EF9A6AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCorePermissionBaseDatabase", "NetCorePermissionBaseDatabase\NetCorePermissionBaseDatabase.csproj", "{AD2A9666-B150-498A-9C2D-20A60EF9A6AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
